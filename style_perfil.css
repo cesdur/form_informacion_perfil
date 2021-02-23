@@ -1,0 +1,158 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/imagen_fondo3.png);
+}
+
+.contact-form {
+    
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px 40px;
+
+    background: linear-gradient(327.53deg, rgba(91, 165, 228, 0.55) 28.04%, rgba(254, 122, 1, 0.55) 49.72%, rgba(133, 20, 137, 0.55) 94.58%);
+    mix-blend-mode: overlay;
+    backdrop-filter: blur(160px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+}
+
+.contact-form h1 {
+    margin: 0;
+    padding: 0 0 5px;
+    text-align: center;
+    
+    
+    width: 368px;
+    height: 28px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+
+    
+    
+    letter-spacing: 0.01em;
+
+    color: #ffff
+}
+
+.contact-form h2 {
+    margin-top: -1px;
+    padding: 0 0 40px;
+    text-align: center;
+
+    width: 368px;
+    height: 28px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+    color: #fff;
+}
+
+.contact-form p {
+    margin-top: -10px;
+    padding: 1px;
+
+    font-weight: bold;
+	color: #fff;
+}
+
+/* Agragar estilos al input */
+.contact-form input {
+    
+    width: 100%;
+    margin-bottom: 20px;  
+    margin-top: -30px;  
+
+    width: 365px;
+    height: 28px;
+    
+
+    background: rgba(131, 127, 127, 0.2);
+    border: 0.82px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+}
+
+
+
+/* Agragar estilos al radio */
+input[type=radio] {
+	width: 16px;
+    height: 16px;
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: left;
+
+    margin-right: 100px;
+    
+    
+    
+}
+
+
+
+.contact-form input [type=text] {
+    width: 99px;
+    height: 25px;
+
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+    
+
+
+}
+
+button {
+    
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 4px;
+    margin-left: 110px;
+    
+    
+
+    width: 151px;
+    height: 40px;
+
+    background: #0D91CF;
+    border: 1px solid #EDEAE8;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+
+
+}
+
